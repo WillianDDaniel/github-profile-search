@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/avanti-react-find-profiles/',
+  base: '/github-profile-search/',
   plugins: [
     tailwindcss(),
     react(),
