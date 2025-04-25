@@ -8,7 +8,7 @@ export default function SearchInput({ search }) {
   }
 
   return (
-    <form className="relative w-94 m-6" onSubmit={(e) => handleSubmit(e) }>
+    <form className="relative md:w-94 m-6" onSubmit={(e) => handleSubmit(e) }>
 
       <input type="text" placeholder="Digite um usuário do GitHub"
         name='userName' required
