@@ -2,6 +2,7 @@ import Background from "./components/Background"
 import Container from "./components/Container"
 import Header from "./components/Header"
 import SearchInput from "./components/SearchInput"
+import UserCard from "./components/UserCard"
 
 export default function App() {
   return (
@@ -9,6 +10,7 @@ export default function App() {
       <Container>
         <Header />
         <SearchInput />
+        <UserCard />
       </Container>
     </Background>
   )
